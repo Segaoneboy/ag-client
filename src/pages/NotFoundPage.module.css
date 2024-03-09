@@ -1,0 +1,11 @@
+.error_block{
+    background-color: #56a7e8;
+    color: white;
+    padding: 6vh 6vh 6vh 6vh;
+    margin: 15vh 30vh 10vh 30vh;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px #e4e3e2;
+}
+.error_block h1,h2{
+    text-align: center;
+}

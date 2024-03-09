@@ -1,0 +1,17 @@
+.return_btn{
+    background-color: #fdfdfd;
+    border: 1px solid #e1dfdd;
+    padding: 1vh;
+    color: #a19f9d;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.return_btn:hover{
+    border: 1px solid #56a7e8;
+    color:  #56a7e8;
+}
+.return_btn_block{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+}

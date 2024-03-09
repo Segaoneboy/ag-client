@@ -1,0 +1,102 @@
+.reg_block{
+    margin: 10vh 80vh 20vh 80vh;
+    padding: 5vh 0 10vh 0;
+    display: flex;
+    justify-content: center;
+    background-color: #56a7e8;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    font-size: 18px;
+    min-width: 45vh;
+    max-width: 50vh;
+
+
+}
+h1{
+    margin-bottom: 5vh;
+}
+.upload_input {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    padding-top: 2vh;
+    border-radius: 5px;
+}
+
+.upload_input input {
+    display: none;
+}
+
+
+.upload_input span {
+    display: inline-block;
+    padding: 1vh 1vw;
+    background-color: #fff;
+    color: #56a7e8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload_input:hover span {
+    background-color: #f1f1f1;
+}
+
+.base_input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 1vh;
+    margin: 1vh;
+    box-shadow: none;
+    overflow: hidden;
+    white-space: nowrap;
+    resize: none;
+
+    color: #fff;
+    background-color: #56a7e8;
+    border-bottom: 2px solid #fff;
+}
+.base_input::placeholder{
+    color: #fff;
+}
+/*стиль для инпута который пуст*/
+.empty_input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 1vh;
+    margin: 1vh;
+    box-shadow: none;
+    overflow: hidden;
+    white-space: nowrap;
+    resize: none;
+    background-color: #56a7e8;
+    color: #fff;
+    border-bottom: 2px solid red;
+}
+.empty_input::placeholder{
+    color: #fff;
+}
+
+/*Кнопка отправки формы на сервер*/
+.send_btn{
+    margin-top: 15vh;
+    margin-bottom: -60vh;
+    padding: 1vh 4vh;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #56a7e8;
+    border: none;
+}
+.send_btn:hover{
+    border: 1px solid #56a7e8;
+    color:  #56a7e8;
+}
+.send_btn_block{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+}

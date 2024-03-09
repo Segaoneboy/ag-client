@@ -1,0 +1,21 @@
+.logo_block{
+    padding: 2vh;
+}
+.logo_img{
+    width: 4vh;
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #56a7e8;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-right: 1vw;
+}

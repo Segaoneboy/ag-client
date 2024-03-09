@@ -1,0 +1,63 @@
+
+.logo_block{
+    padding: 2vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#56a7e8;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-right: 1vw;
+}
+
+
+
+
+.card{
+    display: flex;
+    margin: 2vh 10vh 10vh 10vh;
+    background-color: #56a7e8;
+    color: white;
+    padding: 1vw;
+    border-radius: 10px;
+}
+.card_block_img{
+    display: flex ;
+    align-items: center;
+    max-width: 70vh;
+    max-height: 70vh;
+    padding: 1vh 0.5vw 1vh 0.5vw;
+
+}
+.btn{
+    margin: -1vw;
+    font-size: 20px;
+    border: none;
+    padding: 1vh;
+    border-radius: 10px;
+    color: #56a7e8;
+    background-color: #ffffff;
+
+}
+.btn:hover{
+    border: none;
+    color: #47a7f5;
+    background-color: #d9e7ff;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+
+}
+.card_block_info{
+    font-size: 20px;
+    margin-left: 10vh;
+}
