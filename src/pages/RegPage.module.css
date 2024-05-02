@@ -100,3 +100,24 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .reg_block {
+        margin: 10vh 5vw 10vh 5vw; /* Уменьшаем отступы по бокам */
+        padding: 5vh 0; /* Убираем отступы снизу */
+        min-width: auto; /* Убираем фиксированную ширину */
+        max-width: 90vw; /* Уменьшаем максимальную ширину */
+        font-size: 16px; /* Уменьшаем размер шрифта */
+        text-align: center; /* Центрируем текст */
+    }
+
+    .send_btn {
+        margin-top: 5vh; /* Уменьшаем отступ сверху для кнопки отправки */
+        margin-bottom: 0; /* Убираем отрицательный отступ снизу */
+    }
+
+    .send_btn_block {
+        margin-top: 2vh; /* Увеличиваем отступ сверху для блока с кнопкой отправки */
+    }
+}
+

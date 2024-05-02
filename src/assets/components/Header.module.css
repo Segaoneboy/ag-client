@@ -19,3 +19,30 @@ ul{
 li{
     margin-right: 1vw;
 }
+
+
+@media screen and (max-width: 768px) {
+    .logo_block {
+        padding: 1vh;
+    }
+
+    .logo_img {
+        width: 3vh; /* Уменьшаем размер изображения логотипа */
+    }
+
+    header {
+        flex-direction: column; /* Переключаем направление flex контейнера на вертикальное */
+        align-items: center; /* Центрируем содержимое */
+        padding: 2vh 0; /* Добавляем отступы сверху и снизу */
+    }
+
+    ul {
+        margin-top: 2vh; /* Добавляем отступ сверху для списка */
+    }
+
+    li {
+        margin-right: 0; /* Убираем правый отступ для элементов списка */
+        margin-bottom: 1vh; /* Добавляем отступ между элементами списка */
+    }
+}
+

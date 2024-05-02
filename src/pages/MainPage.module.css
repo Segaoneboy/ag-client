@@ -57,3 +57,24 @@ a:visited{
     border: 1px solid #56a7e8;
     color: #56a7e8;
 }
+
+
+@media screen and (max-width: 768px) {
+    .main_block {
+        padding: 10vh 5vh;
+        margin: 5vh 5vh;
+    }
+
+    .search_block {
+        margin: 5vh 2vh 0 2vh;
+    }
+
+    .main_search_input {
+        font-size: 16px;
+    }
+
+    .main_btn {
+        padding: 0.8vh;
+        font-size: 14px;
+    }
+}
